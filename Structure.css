@@ -1,0 +1,25 @@
+tiffin-service/
+├── client/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   ├── Menu.js
+│   │   │   ├── Profile.js
+│   │   │   └── Review.js
+│   └── package.json
+├── server/
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── menu.js
+│   │   └── review.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Menu.js
+│   │   └── Review.js
+│   ├── app.js
+│   └── package.json
